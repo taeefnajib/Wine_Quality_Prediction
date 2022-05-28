@@ -44,3 +44,7 @@ git branch -M main
 git push -u origin main
 ```
 
+# Whever you get an error- fatal: remote origin already exists. Try the code below:
+```git remote remove origin```
+
+
