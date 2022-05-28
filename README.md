@@ -45,7 +45,9 @@ git push -u origin main
 ```
 
 Whever you get an error- fatal: remote origin already exists. Try the code below:
-```git remote remove origin```
+```
+git remote remove origin
+```
 
 For updating repo on GitHub with just one line code, use:
 ```
