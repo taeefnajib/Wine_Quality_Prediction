@@ -37,3 +37,10 @@ Create our first commit
 git commit -m "first commit"
 ```
 
+Pushing the project to GitHub
+```bash
+git remote add origin https://github.com/taeefnajib/Wine_Quality_Prediction.git
+git branch -M main
+git push -u origin main
+```
+
