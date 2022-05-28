@@ -14,3 +14,26 @@ Installed the requirements
 ```bash
 pip install -r requirements.txt
 ```
+
+We used template.py to create a cookiecutter structure for our project
+
+Download the dataset from [here](https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5?usp=sharing)
+
+
+Initialize GIT and DVC and add data to DVC for tracking
+```bash
+git init
+dvc init
+dvc add data_given/winequality.csv
+```
+
+Add the project to git
+```bash
+git add .
+```
+
+Create our first commit
+```bash 
+git commit -m "first commit"
+```
+
