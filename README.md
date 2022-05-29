@@ -51,5 +51,6 @@ git remote remove origin
 
 For updating repo on GitHub with just one line code, use:
 ```
-git add . && git commit -m "update README.md"
+git add . && git commit -m "comment"
+git push -u origin main
 ```
